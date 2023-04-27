@@ -1,0 +1,25 @@
+html{
+    box-sizing: border-box;
+}
+
+#parallax{
+    height: 300vh;
+    position: relative;
+    
+}
+
+#slide1{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/parallax1.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 300px;
+    translate: -400px;
+
+}
