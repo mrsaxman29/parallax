@@ -6,6 +6,11 @@ body{
     overflow-x: hidden;
 }
 
+h1{
+    text-align: center;
+    padding: 3rem;
+
+}
 
 #parallax{
     height: 200vh;
@@ -30,7 +35,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 500px;
-    translate: -48%;
+    translate: -45%;
     scale: 20%;
 
 }
@@ -60,8 +65,8 @@ body{
     z-index: -1;
     background-repeat: no-repeat;
     background-size: contain;
-    scale: 150%;
-    translate: 24%;
+    scale: 140%;
+    translate: 17%;
 
 }
 
@@ -78,4 +83,31 @@ body{
     translate: 85%;
 
 
+}
+
+#slide5{
+    position: absolute;
+    top: 0;
+    left: -1150px;
+    right: 0;
+    bottom: -2400px;
+    scale: 20%;
+    background-image: url('./images/icon1.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#slide6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: -1200px;
+    bottom: -2400px;
+    scale: 20%;
+    background-image: url('./images/icon1.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: scaleX(-1);
 }
