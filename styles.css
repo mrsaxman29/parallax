@@ -2,10 +2,20 @@ html{
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+
 #parallax{
-    height: 300vh;
+    height: 200vh;
+    padding: 10rem;
+}
+
+#pic1{
     position: relative;
-    
+    width: 80vw;
+    z-index: -88;
 }
 
 #slide1{
@@ -15,11 +25,57 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('./images/parallax1.png');
+    background-image: url('./images/instrument_icon.png');
     z-index: -1;
     background-repeat: no-repeat;
     background-size: contain;
-    border-radius: 300px;
-    translate: -400px;
+    border-radius: 500px;
+    translate: -48%;
+    scale: 20%;
+
+}
+
+#slide2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/textfile_icon.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    scale: 30%;
+    translate: 51%;
+
+}
+
+#slide3{
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/computer_icon.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    scale: 150%;
+    translate: 24%;
+
+}
+
+#slide4{
+    position: absolute;
+    top: 80vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./images/bag_icon.png');
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: contain;
+    translate: 85%;
+
 
 }
